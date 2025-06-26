@@ -7,5 +7,5 @@ class automovil (models.models)
     usuarios_id = models.texfield("usuarios_id")
     fecha_ingreso = models.texfield("fecha_ingreso")
 
-    def_str_(Self):
-        return f'{Self.automovil}'
+    def_str_(self):
+        return f'{self.automovil}'

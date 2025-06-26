@@ -7,5 +7,5 @@ class usuarios (models.models)
     apellido = models.texfield("apellido")
     rol_id = models.texfield("rol_id")
 
-    def_str_(Self):
-        return f'{Self.usuarios}'
+    def_str_(self):
+        return f'{self.usuarios}'

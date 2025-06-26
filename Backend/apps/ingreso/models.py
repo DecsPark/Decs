@@ -6,5 +6,5 @@ class ingreso (models.models)
     precio = models.texfield("precio")
     servicio_id = models.texfield("servicio_id")
 
-    def_str_(Self):
-        return f'{Self.ingreso}'
+    def_str_(self):
+        return f'{self.ingreso}'
