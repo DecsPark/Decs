@@ -19,4 +19,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('v1/', include('app.api.routers')),
+    # path('api=auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
