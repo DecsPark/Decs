@@ -1,12 +1,11 @@
 from django.db import models
 
 # Create your models here.
-class pagos (models.models):
-    id = models.texfield("id")
-    hora_salida = models.texfield("hora_salida")
-    pago_total = models.texfield("pago_total")
-    automovil_id = models.texfield("automovil_id")
-    factura = models.texfield("factura")
+class pagos (models.Model):
+    hora_salida = models.TextField("hora_salida")
+    pago_total = models.TextField("pago_total")
+    automovil_id = models.TextField("automovil_id")
+    factura = models.TextField("factura")
 
 def __str__(self):
     return f'{self.pagos}'
